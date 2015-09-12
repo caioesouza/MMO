@@ -1,0 +1,7 @@
+Client
+Destiny: "YOUR PATH OF INSTALLATION OF UE4\4.8\Engine\Binaries\Win64\UE4Editor.exe" "YOUR PATH OF PROJECT\Game.uproject" -game
+Start on: "YOUR PATH OF INSTALLATION OF UE4\4.8\Engine\Binaries\Win64\"
+
+Listen Server
+Destiny: "YOUR PATH OF INSTALLATION OF UE4\4.8\Engine\Binaries\Win64\UE4Editor.exe" "YOUR PATH OF PROJECT\Game.uproject" World ?listen -game
+Start on: "YOUR PATH OF INSTALLATION OF UE4\4.8\Engine\Binaries\Win64\"
