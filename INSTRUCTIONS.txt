@@ -1,0 +1,24 @@
+INSTALL INSTRUCTIONS
+0 - Install GameWEB.zip project template in Visual Studio templates directory, and then create a new project from this template. Learn how here: https://msdn.microsoft.com/pt-br/library/vstudio/y3kkate1(v=vs.100).aspx
+
+1 - Install sql server: When you open the project in Visual Studio, it will create the database on the previously installed server. Link for downloading sql server: http://www.microsoft.com/pt-br/server-cloud/products/sql-server-editions/sql-server-express.aspx
+
+2 - Run the project in Visual Studio and will be created database in sql server. Important that the SQL Server has been previously installed with windows authentication, otherwise it is necessary to implement new connection string in the file "web.config" project in Visual Studio.
+
+3 - When the project is run in Visual Studio, it will open a web page to display the accounts in the database. Create a new account for you to use in mmo login.
+
+4 - Change the shortcuts (.ink) according to the way of the project and its Unreal Engine 4 installed. Instructions below.
+
+5 - Start MMO server from the shortcut (Listen Server.ink).
+
+6 - Launch the shortcut by the client (Client.ink) or within the Unreal Engine 4. Log in to previously created account and start implementing their MMO ideas in the project.
+
+
+===================================================
+Client.ink
+Destiny: "YOUR PATH OF INSTALLATION OF UE4\4.8\Engine\Binaries\Win64\UE4Editor.exe" "YOUR PATH OF PROJECT\Game.uproject" -game
+Start on: "YOUR PATH OF INSTALLATION OF UE4\4.8\Engine\Binaries\Win64\"
+
+Listen Server.ink
+Destiny: "YOUR PATH OF INSTALLATION OF UE4\4.8\Engine\Binaries\Win64\UE4Editor.exe" "YOUR PATH OF PROJECT\Game.uproject" World ?listen -game
+Start on: "YOUR PATH OF INSTALLATION OF UE4\4.8\Engine\Binaries\Win64\"
